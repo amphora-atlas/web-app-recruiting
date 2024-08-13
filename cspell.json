@@ -1,0 +1,45 @@
+{
+	"version": "0.2",
+	"language": "en",
+	"words": [
+		"AUSD",
+		"AUSTRAC",
+		"Cupertino",
+		"Gilan",
+		"callout",
+		"collateralized",
+		"compat",
+		"datetime",
+		"focusable",
+		"fontawesome",
+		"fonticons",
+		"lightswitch",
+		"minicard",
+		"mintable",
+		"paralleldrive",
+		"preact",
+		"preline",
+		"regexes",
+		"registrator",
+		"styleguide",
+		"tablist",
+		"transpiles",
+		"webplatform",
+		"wordmark"
+	],
+	"flagWords": [
+		"hte"
+	],
+	"ignorePaths": [
+		"./public/*",
+		"./bun.lockb",
+		"./bunfig.toml",
+		"./src/utils/welcome.ts",
+		"./src/assets/*",
+		"./src/utils/interfaces.ts",
+		"./src/components/styleguide/*",
+		"./src/pages/styleGuide.tsx",
+		"./cspell.json",
+		"./test/*"
+	]
+}

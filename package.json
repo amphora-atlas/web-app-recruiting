@@ -1,0 +1,63 @@
+{
+	"private": true,
+	"name": "agora-technical-interview",
+	"type": "module",
+	"version": "0.0.1",
+	"scripts": {
+		"check": "bun check:all",
+		"check:all": "bun check:tests && bun check:linting && bun check:spelling",
+		"check:tests": "bun test",
+		"check:linting": "bun tidy",
+		"check:spelling": "bun spellcheck",
+		"dev": "vite",
+		"build:production": "vite build -m production",
+		"build:staging": "vite build -m staging",
+		"build:sandbox": "vite build -m sandbox --minify false --sourcemap true -- logLevel info --debug",
+		"preview": "vite preview",
+		"spellcheck": "cspell . --quiet --show-context --gitignore",
+		"tidy": "eslint .",
+		"test": "bun test",
+		"server": "bun ./server/index.ts"
+	},
+	"dependencies": {
+		"@ag-grid-community/styles": "^31.1.1",
+		"@auth0/auth0-spa-js": "^2.1.3",
+		"@paralleldrive/cuid2": "^2.2.2",
+		"@preact/preset-vite": "^2.5.0",
+		"@preact/signals": "^1.2.2",
+		"ag-grid-community": "^31.1.1",
+		"ag-grid-react": "^31.1.1",
+		"axios": "^1.6.8",
+		"preact": "^10.13.1",
+		"preact-compat": "^3.19.0",
+		"preact-iso": "^2.3.2",
+		"preact-render-to-string": "^6.3.1",
+		"preact-router": "^4.1.2",
+		"vite": "^4.3.2"
+	},
+	"devDependencies": {
+		"@faker-js/faker": "^8.4.1",
+		"@happy-dom/global-registrator": "^14.7.1",
+		"@stylistic/eslint-plugin": "^2.1.0",
+		"@stylistic/eslint-plugin-jsx": "^1.6.3",
+		"@stylistic/eslint-plugin-ts": "^1.6.3",
+		"@testing-library/dom": "^10.0.0",
+		"@testing-library/preact": "^3.2.3",
+		"@testing-library/user-event": "^14.5.2",
+		"@types/bun": "^1.1.1",
+		"@types/node": "^20.12.12",
+		"@typescript-eslint/eslint-plugin": "^7.0.0",
+		"@typescript-eslint/parser": "^7.0.0",
+		"cspell": "^8.8.4",
+		"eslint": "^8.57.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-airbnb-typescript": "^18.0.0",
+		"eslint-config-preact": "^1.3.0",
+		"eslint-config-standard-with-typescript": "^43.0.1",
+		"eslint-plugin-react": "^7.34.0",
+		"typescript": "^5.3.3"
+	},
+	"eslintConfig": {
+		"extends": "preact"
+	}
+}

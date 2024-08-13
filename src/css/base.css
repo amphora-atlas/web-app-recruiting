@@ -1,0 +1,26 @@
+#app {
+	padding: 4rem;
+	display: flex;
+	font-size: 1.25rem;
+	margin: auto;
+
+	color: #222222;
+	background-color: #fff;
+}
+
+p {
+	padding: 2rem;
+	white-space: pre-wrap;
+	font-family: sans-serif;
+}
+
+ol {
+	text-align: left;
+	max-width: 64rem;
+	margin: auto;
+}
+
+.text--center {
+	text-align: center;
+	width: 100%;
+}
