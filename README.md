@@ -29,8 +29,6 @@ Setting up your dev environment:
 
 ### Technical Challenge:
 
-Welcome to the Agora Technical Interview
-
 Your challenge is to recreate the Terms & Conditions form from app.agora.finance.
 
 The form has 4 fields:
