@@ -2,7 +2,7 @@
 
 Welcome to the Agora Technical Interview.
 
-Your challenge is to create a form component for a REST api with the tools of Agora's Front End Stack: Bun.js, Preact, Signals, and TypeScript.
+Your challenge is to create a form component for a REST API with the tools of Agora's Front End Stack: Bun.js, Preact, Signals, and TypeScript.
 
 You may refer to the Terms & Conditions Form from app.agora.finance for guidance and inspiration, though an exact replica is discouraged.
 
