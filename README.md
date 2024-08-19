@@ -8,7 +8,7 @@ You may refer to the Terms & Conditions Form from app.agora.finance for guidance
 
 Agora's Front End is built on Bun.js, Preact, Signals, and TypeScript, so please use this challenge as an opportunity to demonstrate your proficiency with this stack.
 
-When you are finished, upload your work to a private github repo and add your interviewer as a collaborator so they can review it.
+When you are finished, upload your work to a private github repo and send a link to fe-technical-interview@agora.finance so we can review it. Make sure to add your reviewers (DrakeEvans & gilansalehi) as collaborators so we can view the repo.
 
 ## Getting Started:
 
@@ -50,7 +50,7 @@ You can find the blank form component at /src/components/form.tsx.
 
 Please spend no more than 90 minutes on this!
 
-When you're done, commit your work to a private github repo and send a link to careers@agora.finance, along with a brief description of how you would enhance this feature and what further steps are needed for your code to be 100% production-ready.
+When you're done, commit your work to a private github repo and send a link to fe-technical-interview@agora.finance, along with a brief description of how you would enhance this feature and what further steps are needed for your code to be 100% production-ready.
 
 Good luck!
 
@@ -69,7 +69,7 @@ Good luck!
 
 - Our entry point for javascript is `src/index.tsx`, which imports and renders the app
 - Static CSS sits in a top-level folder.
-- Component css lives with the component and is imported in the component file.
+- Component css lives with the component and is imported in the component file. We write a combination of BEM and atomic css, depending on what the situation calls for. For this challenge, use what you know best!
 - Preact JS Components
   - Components: first-class component library that handles base-level functionality
     - css near js: import a css file with the same name as your component’s tsx file for locally scoped css.
